@@ -1,0 +1,300 @@
+body {
+  overflow-x: hidden;
+  background-color: white;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  top: 0;
+  z-index: 1000;
+}
+
+ul, menu, dir {
+  display: block;
+  float: right;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+nav ul li {
+  display: inline-block;
+  float: right;
+  padding-right: em;
+  padding-top: 2em;
+}
+li{
+  padding-right: 4em;
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  color:black;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+A:hover { color:black; text-decoration: none }
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.inicio{
+  width: inherit;
+}
+.intro{
+  margin-top: 6em;
+}
+
+.sobre-mi{
+  padding:1em;
+}
+
+.photo-webEcommerce{
+  background-image: url(../img/online-shop.png);
+  background-size: cover;
+  max-width: 10vw;
+  padding:30%;  
+}
+.subtitulo{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3vw;
+  color: rgba(0, 0, 0, 0.699);
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.p-proyectos{
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  color: rgba(0, 0, 0, 0.699);
+}
+.read-more{
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  color: rgba(0, 0, 0, 0.699);
+}
+.photo-appFinanciera{
+  background-image: url(../img/financeApp.png);
+  background-size: cover;
+  max-width: 10vw;
+  padding:30%;  
+}
+.box-1{
+  background-color:rgb(238, 238, 238);
+  padding: 3em;
+  margin-top: 20em;
+}
+.box-2{
+  background-color: rgb(255, 229, 219);
+  padding: 3em;
+  padding: 3em;
+  margin-top:5rem;
+  margin-bottom: 5em;
+}
+.body-sobremi{
+  background-color: rgb(235, 241, 241);
+}
+.section-1-sobremi{
+  background-color: rgba(5, 5, 5, 0.897);
+  margin-top: 15em;
+}
+
+.about{
+  text-align: center;
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 2.3vw;
+  margin:3.5em; 
+  color: rgba(0, 0, 0, 0.699);
+}
+
+#foto{
+background-image: url(../img/javi.JPG);
+background-size: cover;
+width: 100%;
+height: auto;
+margin-top: 15em;
+}
+.logo{
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  max-width: 20vw;
+  padding:15%;  
+  margin-top:2em;
+}
+.ux-design{
+  font-size: 2.5vw;
+  margin-top: 2rem;
+  text-align: center;
+}
+.section-lab{
+  margin-top:10em;
+}
+.lab{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6vw;
+  color: rgba(0, 0, 0, 0.699);
+}
+.p-lab{
+  text-align: justify;
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  margin: 2.5em;
+  line-height: 2em;
+  color: rgba(0, 0, 0, 0.699);
+}
+.img-lab{
+ 
+  background-size: cover;
+ width: 100%;
+  height: auto;
+}
+.p-hfc-seccion1{
+  margin-top: 10em;
+  margin-right: 4em;
+  margin-left: 4em;
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  text-align: justify;
+  line-height: 2em;
+  color: rgba(0, 0, 0, 0.699);
+}
+.hfc-titulo{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3vw;
+  margin-top:3em;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.p-hfc-seccion2{
+  margin-top:3em;
+  margin-right: 8em;
+  margin-left: 8em;
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.699);
+}
+.collage-hfc{
+  background-size: cover;
+  width: 100%;
+   height: auto;
+   margin-top:4em;
+}
+
+@media ( min-width : 320px ) and ( max-width : 480px ) {
+ 
+  nav ul li {
+    display: inline-block;
+    padding: 0.5em 0.5em;
+  }
+  .section-1{
+    margin:2em;
+    background-color:  rgb(255, 229, 219);
+  }
+  .section-2{
+    margin:2em;
+    background-color:  rgb(255, 229, 219);
+  }
+  .box-1{
+    background-color: rgb(255, 229, 219);
+    padding: 1em;
+    margin: 1rem;
+  }
+  .box-2{
+  
+    background-color: rgb(255, 229, 219);
+    padding: 1em;
+    margin: 1rem;
+  }
+  .photo-webEcommerce{
+    background-size: cover;
+    max-width: 4vw;
+    padding:15%;  
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+  }
+  .photo-appFinanciera{
+    background-size: cover;
+    max-width: 5vw;
+    padding:15%;  
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+  }
+  .logo{
+    margin-top:2em;
+    background-size: cover;
+    padding:6vw; 
+    }
+    .section-1-sobremi{
+      background-color: white;
+      margin-top: 4em;
+    } 
+    .about{
+      text-align: center;
+      font-family: Georgia, serif;
+      font-size: 1.3vw;
+      margin-top:0.5em;
+      margin-bottom: 0.5em; 
+    }
+    #foto{
+    margin-top:3em;
+    }
+    .section-lab{
+      margin-top:4em;
+    }
+    .img-lab{
+ 
+      background-size: cover;
+     width: 100%;
+      height: auto;
+      margin-top: 2em;
+     
+    }
+}
+@media ( min-width : 768px ) and ( max-width : 1024px ) {
+  
+  .logo{
+    margin-top: 2em;
+    background-size: cover;
+    padding:6vw; 
+    }
+    .section-1{
+      margin:2em;
+      background-color: white;
+    }
+    .section-2{
+      margin:2em;
+      background-color: white;
+    }
+    .box-1{
+      border-color:black solid;
+      padding: 2em;
+      margin-top: 6rem;
+    }
+    .box-2{
+      border-color:black solid;
+      padding: 2em;
+      margin-top: 3rem;
+    } 
+    .photo-webEcommerce{
+      background-size: cover;
+      max-width: 6vw;
+      padding:25%;  
+      margin-bottom: 0.5em;
+    }
+    .photo-appFinanciera{
+      background-size: cover;
+      max-width: 10vw;
+      padding:40%;  
+      margin-bottom: 0.5em;
+     float: left;
+    }
+    li{
+      padding-right: 2em;
+    }
+}

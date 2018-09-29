@@ -85,14 +85,14 @@ li {
 .box-1{
 
   padding: 2em;
-  margin-top: 20em;
+  margin-top: 10em;
 }
 hr{
   border: 1px solid black;
 }
 .box-2{ 
   padding: 2em;
-  margin-top:10em;
+  margin-top:2em;
   margin-bottom: 5em;
  
 }
@@ -120,7 +120,7 @@ background-image: url(../img/javi.JPG);
 background-size: cover;
 width: 100%;
 height: auto;
-margin-top: 15em;
+margin-top: 8em;
 }
 .logo{
   background-image: url(../img/logo.png);
@@ -135,19 +135,22 @@ margin-top: 15em;
   text-align: center;
 }
 .section-lab{
-  margin-top:10em;
+  margin-top:8em;
 }
 .lab{
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 6vw;
   color: black;
+ 
 }
 .p-lab{
   text-align: justify;
   font-family: Georgia, serif;
   font-size: 1.5vw;
   margin: 2.5em;
+  margin-right:8em;
+  margin-left: 8em;
   line-height: 2em;
   color: rgba(0, 0, 0, 0.699);
 }

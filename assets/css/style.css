@@ -234,6 +234,15 @@ margin-top: 15em;
   font-family: 'Fjalla One', sans-serif;
   font-size: 1.5vw;
 }
+.fa-envelope{
+font-size: 2vw;
+
+margin-right: 1em;
+}
+.fa-whatsapp{
+  font-size: 2vw;
+  margin-right: 1em;
+}
 @media ( min-width : 320px ) and ( max-width : 480px ) {
  
   nav ul li {

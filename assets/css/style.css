@@ -51,17 +51,18 @@ li {
 }
 
 .photo-webEcommerce{
-  background-image: url(../img/online-shop.png);
+  background-image: url(../img/hfc.jpg);
   background-size: cover;
   max-width: 10vw;
-  padding:30%;  
+  padding:40%;  
+  margin-left: 2rem;
 }
 .subtitulo{
   font-family: 'Fjalla One', sans-serif;
   font-size: 3vw;
-  color: rgba(0, 0, 0, 0.699);
+  color: black;
   margin-bottom: 0.5em;
-  text-align: center;
+  text-align: left;
 }
 .p-proyectos{
   font-family: Georgia, serif;
@@ -69,27 +70,34 @@ li {
   color: rgba(0, 0, 0, 0.699);
 }
 .read-more{
-  font-family: Georgia, serif;
-  font-size: 1.5vw;
-  color: rgba(0, 0, 0, 0.699);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2vw;
+  color: black;
+  text-decoration: underline;
 }
 .photo-appFinanciera{
-  background-image: url(../img/financeApp.png);
+  background-image: url(../img/Copia\ de\ financeApp.png);
   background-size: cover;
   max-width: 10vw;
-  padding:30%;  
+  padding:40%;  
+  margin-left: 2rem;
 }
 .box-1{
-  background-color:rgb(238, 238, 238);
-  padding: 3em;
+
+  padding: 2em;
   margin-top: 20em;
 }
-.box-2{
-  background-color: rgb(255, 229, 219);
-  padding: 3em;
-  padding: 3em;
-  margin-top:5rem;
+hr{
+  border: 1px solid black;
+}
+.box-2{ 
+  padding: 2em;
+  margin-top:10em;
   margin-bottom: 5em;
+ 
+}
+.box{
+  margin-left: auto;
 }
 .body-sobremi{
   background-color: rgb(235, 241, 241);
@@ -98,7 +106,6 @@ li {
   background-color: rgba(5, 5, 5, 0.897);
   margin-top: 15em;
 }
-
 .about{
   text-align: center;
   font-family: Georgia, serif;
@@ -134,7 +141,7 @@ margin-top: 15em;
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 6vw;
-  color: rgba(0, 0, 0, 0.699);
+  color: black;
 }
 .p-lab{
   text-align: justify;
@@ -150,81 +157,97 @@ margin-top: 15em;
  width: 100%;
   height: auto;
 }
+.hfc-seccion1{
+ background-color: rgb(25,30,36);
+ padding: 2em;
+}
 .p-hfc-seccion1{
-  margin-top: 10em;
-  margin-right: 4em;
-  margin-left: 4em;
+  margin-top: 2em;
+  margin-right: 12em;
+  margin-left: 12em;
   font-family: Georgia, serif;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   text-align: justify;
   line-height: 2em;
-  color: rgba(0, 0, 0, 0.699);
+  color:white;
+ 
 }
 .hfc-titulo{
-  text-align: center;
+ 
   font-family: 'Fjalla One', sans-serif;
   font-size: 3vw;
   margin-top:3em;
-  color: rgba(0, 0, 0, 0.699);
+  color: black;
+  text-align: center;
 }
 
 .p-hfc-seccion2{
   margin-top:3em;
+  margin-bottom: 2em;
   margin-right: 8em;
   margin-left: 8em;
   font-family: Georgia, serif;
   font-size: 1.5vw;
-  text-align: justify;
+  text-align: left;
   color: rgba(0, 0, 0, 0.699);
+  line-height: 2em;
 }
 .collage-hfc{
-  background-size: cover;
-  width: 100%;
+   background-size: cover;
+   width: 70%;
    height: auto;
-   margin-top:4em;
+   margin-top:5em;
+   margin-left: 15%;
+}
+.fa-ellipsis-h{
+  margin-left: 50%;
+  color: white;
+}
+.section-3-hfc{
+ padding: 2em;
+  background-color: rgb(252, 156, 172);
+}
+.letra{
+  font-family: Georgia, serif;
+  font-size: 1.2vw;
 }
 
+.h3{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4vw;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+.fa-long-arrow-alt-right{
+  font-size: 2vw;
+  color: rgb(22, 22, 22);
+  margin-left: 1em;
+}
+.li{
+  font-family: Georgia, serif;
+  font-size: 1.5vw;
+  color: whitesmoke;
+  margin-bottom: 3em;
+}
 @media ( min-width : 320px ) and ( max-width : 480px ) {
  
   nav ul li {
     display: inline-block;
     padding: 0.5em 0.5em;
   }
-  .section-1{
-    margin:2em;
-    background-color:  rgb(255, 229, 219);
-  }
-  .section-2{
-    margin:2em;
-    background-color:  rgb(255, 229, 219);
+  .box{
+    margin-left: auto;
   }
   .box-1{
-    background-color: rgb(255, 229, 219);
-    padding: 1em;
-    margin: 1rem;
+    margin-top: 3em;
+   
   }
   .box-2{
   
-    background-color: rgb(255, 229, 219);
     padding: 1em;
-    margin: 1rem;
   }
-  .photo-webEcommerce{
-    background-size: cover;
-    max-width: 4vw;
-    padding:15%;  
-    display: block;
-    margin: auto;
-    margin-bottom: 0.5em;
-  }
-  .photo-appFinanciera{
-    background-size: cover;
-    max-width: 5vw;
-    padding:15%;  
-    display: block;
-    margin: auto;
-    margin-bottom: 0.5em;
-  }
+  
   .logo{
     margin-top:2em;
     background-size: cover;
@@ -252,8 +275,7 @@ margin-top: 15em;
       background-size: cover;
      width: 100%;
       height: auto;
-      margin-top: 2em;
-     
+      margin-top: 2em; 
     }
 }
 @media ( min-width : 768px ) and ( max-width : 1024px ) {
@@ -271,20 +293,22 @@ margin-top: 15em;
       margin:2em;
       background-color: white;
     }
+    .box{
+      margin-left: auto;
+      
+    }
     .box-1{
-      border-color:black solid;
-      padding: 2em;
-      margin-top: 6rem;
+     
+      margin-top: 10rem;
     }
     .box-2{
-      border-color:black solid;
-      padding: 2em;
+     
       margin-top: 3rem;
     } 
     .photo-webEcommerce{
       background-size: cover;
       max-width: 6vw;
-      padding:25%;  
+      padding:40%;  
       margin-bottom: 0.5em;
     }
     .photo-appFinanciera{

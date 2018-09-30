@@ -34,7 +34,7 @@ a{
   font-size: 1.5vw;
   font-weight: bold;
 }
-A:hover { color:black; text-decoration: none }
+A:hover { color:rgb(39, 39, 39); text-decoration: none }
 li {
   display: list-item;
   text-align: -webkit-match-parent;
@@ -55,12 +55,12 @@ li {
   background-size: cover;
   max-width: 10vw;
   padding:40%;  
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .subtitulo{
   font-family: 'Fjalla One', sans-serif;
   font-size: 3vw;
-  color: black;
+  color: rgb(34, 33, 33);
   margin-bottom: 0.5em;
   text-align: left;
   margin-top:0.5em;
@@ -72,8 +72,8 @@ li {
 }
 .read-more{
   font-family: 'Fjalla One', sans-serif;
-  font-size: 2vw;
-  color: black;
+  font-size: 1.5vw;
+  color:rgb(255,71,76);
   text-decoration: underline;
 }
 .photo-appFinanciera{
@@ -81,7 +81,7 @@ li {
   background-size: cover;
   max-width: 10vw;
   padding:40%;  
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .box-1{
 
@@ -130,6 +130,7 @@ margin-top: 8em;
   padding:15%;  
   margin-top:2em;
 }
+
 .ux-design{
   font-size: 2.5vw;
   margin-top: 2rem;
@@ -174,13 +175,11 @@ margin-top: 8em;
   text-align: justify;
   line-height: 2em;
   color:white;
- 
-}
-
+ }
 .hfc-titulo{
   font-family: 'Fjalla One', sans-serif;
   font-size: 3vw;
-  margin-top:3em;
+  margin-top:2em;
   color: black;
   text-align: center;
 }
@@ -198,9 +197,15 @@ margin-top: 8em;
 }
 .collage-hfc{
    background-size: cover;
+   width: 100%;
+   height: auto;
+}
+.collage-user{
+  background-size: cover;
    width: 70%;
    height: auto;
    margin-top:5em;
+   margin-bottom: 2em;
    margin-left: 15%;
 }
 .fa-ellipsis-h{
@@ -208,8 +213,9 @@ margin-top: 8em;
   color: white;
 }
 .section-3-hfc{
- padding: 2em;
-  background-color: rgb(247, 178, 190);
+ padding: 3em;
+  background-color:rgb(238, 234, 234);
+  border-bottom: 2px solid black;
 }
 .letra{
   font-family: Georgia, serif;
@@ -220,8 +226,8 @@ margin-top: 8em;
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 4vw;
-  margin-top: 5em;
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .fa-long-arrow-alt-right{
   font-size: 2vw;
@@ -254,6 +260,18 @@ margin-right: 1em;
    margin-bottom: 3em; 
    color: white;
 }
+.l-chica-2{
+  font-size: 1vw;
+  font-style:italic;
+   text-align: center; 
+   margin-bottom: 3em; 
+   color: rgba(0, 0, 0, 0.699);
+}
+.videoHFC{
+  width: 100%;
+   height: auto;
+}
+
 @media ( min-width : 320px ) and ( max-width : 480px ) {
  
   nav ul li {

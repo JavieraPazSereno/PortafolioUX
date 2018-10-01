@@ -1,44 +1,18 @@
 body {
   overflow-x: hidden;
-  background-color: white;
+  background-color: rgb(242,242,242);
 }
-nav{
-  width: 100%;
-  height: 80px;
-  top: 0;
-  z-index: 1000;
-}
-
-ul, menu, dir {
-  display: block;
-  float: right;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-nav ul li {
-  display: inline-block;
-  float: right;
-  padding-right: em;
-  padding-top: 2em;
-}
-li{
-  padding-right: 4em;
+.nav-item{
+  padding-left: 15em;
   font-family: 'Fjalla One', sans-serif;
 }
 a{
   color:black;
-  font-size: 1.5vw;
-  font-weight: bold;
+  font-size: 2vw;
+ 
 }
 A:hover { color:rgb(39, 39, 39); text-decoration: none }
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
+
 .inicio{
   width: inherit;
 }
@@ -124,11 +98,12 @@ height: auto;
 margin-top: 8em;
 }
 .logo{
-  background-image: url(../img/logo.png);
   background-size: cover;
-  max-width: 20vw;
-  padding:15%;  
-  margin-top:2em;
+  max-width: 15vw;
+ margin-left: 2em;
+ margin-top: 1em;
+
+ 
 }
 
 .ux-design{
@@ -214,7 +189,7 @@ margin-top: 8em;
 }
 .section-3-hfc{
  padding: 3em;
-  background-color:rgb(238, 234, 234);
+  background-color:rgb(201, 195, 195);
   
 }
 .letra{
@@ -226,8 +201,8 @@ margin-top: 8em;
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 4vw;
-  margin-top: 4em;
-  margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   color: black;
 }
 .fa-long-arrow-alt-right{
@@ -240,6 +215,7 @@ margin-top: 8em;
   font-size: 1.5vw;
   color: whitesmoke;
   margin-bottom: 2em;
+ 
 }
 .letra-cont{
   font-family: 'Fjalla One', sans-serif;
@@ -275,10 +251,12 @@ margin-right: 1em;
 
 @media ( min-width : 320px ) and ( max-width : 480px ) {
  
-  nav ul li {
-    display: inline-block;
-    padding: 2em 0.5em;
+  li{
+    padding-top: 2em;
+    padding-left: 1em;
+    font-family: 'Fjalla One', sans-serif;
   }
+
   .box{
     margin-left: auto;
   }
@@ -290,11 +268,6 @@ margin-right: 1em;
     margin-top: 1em;
   }
   
-  .logo{
-    margin-top:1.5em;
-    background-size: cover;
-    padding:6vw; 
-    }
     .section-1-sobremi{
       background-color: white;
       margin-top: 1em;
@@ -349,18 +322,14 @@ margin-right: 1em;
     .read-more{
       font-family: 'Fjalla One', sans-serif;
       font-size: 3vw;
-      color: black;
+      color:rgb(255,71,76);
       text-decoration: underline;
       text-align: center;
     }
-    li{
-      padding-right: 0.5em;
-      font-family: 'Fjalla One', sans-serif;
-    }
+  
     a{
       color:black;
-      font-size: 2vw;
-      font-weight: bold;
+      font-size: 3vw;
     }
     .p-lab{
       text-align: justify;
@@ -434,11 +403,7 @@ margin-right: 1em;
 }
 @media ( min-width : 768px ) and ( max-width : 1024px ) {
   
-  .logo{
-    margin-top: 2em;
-    background-size: cover;
-    padding:6vw; 
-    }
+  
     .section-1{
       margin:2em;
       background-color: white;

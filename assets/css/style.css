@@ -69,11 +69,12 @@ A:hover { color:rgb(39, 39, 39); text-decoration: none }
 
 .photo-appFinanciera{
   background-image: url(../img/Samsung\ Galaxy\ Note9\ Mockup.png);
-  background-size: cover;
-  max-width:18vw;
-  padding:40%;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width:13vw;
+  padding:50%;  
   margin-left: 2rem;
-  -webkit-transform:scale(1.3);transform:scale(1.3);
+  -webkit-transform:scale(1.3);transform:scale(1);
 }
 .photo-pillalo{
   background-image: url(../img/pillalo.png);
@@ -85,14 +86,15 @@ A:hover { color:rgb(39, 39, 39); text-decoration: none }
 }
 .photo-LYB{
   background-image: url(../img/love\ your\ body.png);
-  background-size: cover;
-  max-width:18vw;
-  padding:40%;   
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width:13vw;
+  padding:50%;   
   margin-left: 2rem;
-  -webkit-transform:scale(1.3);transform:scale(1.3);
+  -webkit-transform:scale(1.3);transform:scale(1);
 }
 .zoom{
-  transition: transform .2s;
+  transition: transform .3s;
 }
 .zoom:hover {
   transform: scale(1.2);

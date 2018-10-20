@@ -25,7 +25,7 @@ a{
   font-size: 1.5vw;
  
 }
-A:hover { color:white; text-decoration: none }
+A:hover { color:rgb(255,71,76); text-decoration: none }
 
 .inicio{
   width: inherit;
@@ -78,9 +78,9 @@ A:hover { color:white; text-decoration: none }
   background-image: url(../img/Samsung\ Galaxy\ Note9\ Mockup.png);
   background-size: contain;
   background-repeat: no-repeat;
-  max-width:13vw;
-  padding:50%;  
-  margin-left: 2rem;
+  max-width:16vw;
+  padding:30%;  
+  margin-left: 5rem;
   -webkit-transform:scale(1.3);transform:scale(1);
 }
 .photo-pillalo{
@@ -141,20 +141,24 @@ margin-top:11em;
 
 .foto{
 background-image: url(../img/javi.JPG);
-background-size: cover;
+background-size: contain;
+background-repeat: no-repeat;
 background-position: center center;
 padding: 35%;
 margin-top: 11em;
+
 }
 .black{
   background-color: rgb(26,30,35);
   margin-top: 11em;
 }
 .p-sobreMi{
+  text-align: justify;
+  margin-top:2em;
   color: white;
-  padding: 4em;
-  font-size: 1.5em;
-  line-height: 2em;
+  padding: 3em;
+  font-size: 1.5vw;
+  line-height: 2.5em;
   font-family: Georgia, serif;
 }
 .javi-lab{
@@ -186,7 +190,7 @@ margin-top: 11em;
 .lab{
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 6vw;
+  font-size: 4vw;
   color: black;
  
 }
@@ -609,6 +613,6 @@ h2{
     .uxDesigner{
       font-family: 'Fjalla One', sans-serif;
       font-size: 1.5em;
-      color: rgb(255,71,76);
+      color: white;
     }
 }

@@ -533,6 +533,9 @@ h2{
     padding-left: 1em;
     font-family: 'Fjalla One', sans-serif;
   }
+  .subtitulo{
+    margin-top:0.3em;
+  }
   .photo-webEcommerce{
     
     background-size: cover;

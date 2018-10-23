@@ -525,7 +525,7 @@ h2{
        margin-left: 15%;
     }
 }
-@media ( min-width : 768px ) and ( max-width : 1024px ) {
+@media ( min-width : 768px ) and ( max-width : 1024px ) and (orientation: landscape) {
   
   
   li{
@@ -580,6 +580,15 @@ h2{
       max-width: 10em;  
     
     }
+   .p-sobreMi{
+      text-align: justify;
+      margin-top:2em;
+      color: white;
+      padding: em;
+      font-size: 1.5vw;
+      line-height: 2.5em;
+      font-family: Georgia, serif;
+   }
     .p-lab{
       text-align: justify;
       font-family: Georgia, serif;
@@ -650,4 +659,47 @@ h2{
     .p-proyectos{
       font-size: 2vw;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+
+  .subtitulo{
+    margin-top:0.6em;
+  }
+  .logo{
+    background-size: cover;
+      max-width: 10em;  
+  }
+  .p-sobreMi{
+      text-align: justify;
+      margin-top:1em;
+      color: white;
+      padding: 4em;
+      font-size: 3vw;
+      line-height: 2.5em;
+      font-family: Georgia, serif;
+   }
+   .black{
+     margin-top: 7.7em;
+   }
+   .foto{
+     margin-top: 0em;
+   }
+   .p-lab{
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-size: 2.5vw;
+    margin: 2.5em;
+    margin-right:4em;
+    margin-left: 4em;
+    line-height: 2em;
+    color: rgba(0, 0, 0, 0.699);
+  }
+  .li{
+    font-size: 2.5vw;
+  }
+  .p-hfc-seccion2{
+    font-size: 2.5vw;
+  }
 }

@@ -373,10 +373,12 @@ h2{
     }
   .box-1{
     margin-top: 1em;
+    padding: 1.5em;
    
   }
   .box-2{
     margin-top: 1em;
+    padding: 1.5em;
   }
   
     .section-1-sobremi{
@@ -407,7 +409,7 @@ h2{
       background-repeat: no-repeat;
       max-width:3vw;
       padding:30%;   
-      margin-left: 5rem;
+      margin-left: 4.5rem;
       -webkit-transform:scale(1.3);transform:scale(1);
     }
     .photo-pillalo{
@@ -608,5 +610,16 @@ h2{
       font-family: 'Fjalla One', sans-serif;
       font-size: 1.5em;
       color: white;
+    }
+    .box-1{
+
+      padding: 2em;
+    }
+    
+    .box-2{ 
+      padding: 2em;
+    } 
+    .p-proyectos{
+      font-size: 2vw;
     }
 }
